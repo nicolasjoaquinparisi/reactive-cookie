@@ -1,0 +1,19 @@
+:root {
+  --light-brown: #c68642;
+  --dark-brown: #8d5524;
+}
+
+@font-face {
+  font-family: pixelmix;
+  src: url('/src/fonts/pixelmix.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: pixelmix;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #212529!important;
+  user-select: none;
+}
